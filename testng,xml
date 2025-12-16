@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SauceDemo_Functional_Suite">
+
+    <test name="Authentication_and_Product_Flow_Tests">
+        <classes>
+            <class name="tests.LoginTests"/>
+            
+            <class name="tests.ProductsAndCartTests"/>
+        </classes>
+    </test>
+    
+</suite>
